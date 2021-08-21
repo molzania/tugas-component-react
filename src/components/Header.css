@@ -1,0 +1,16 @@
+.Navbar {
+    padding:10px;
+    background-color:pink;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+    font-weight: bold;
+}
+
+.Navbar.Brand {
+    font-size: 30px;
+}
+
+.Container {
+    float: right;
+}

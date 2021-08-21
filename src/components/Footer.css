@@ -1,0 +1,10 @@
+.Footer{
+    padding: 10px;
+    text-align: center;
+    background-color: pink;
+    color:brown;
+}
+
+.Footer > h3 {
+    font-size: 15px;
+}
