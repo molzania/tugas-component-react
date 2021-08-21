@@ -8,9 +8,11 @@
 }
 
 .Navbar.Brand {
-    font-size: 30px;
+    color:brown;
+    font-size: 20px;
 }
 
 .Container {
-    float: right;
+    display: flex;
+    justify-content: space-around;
 }

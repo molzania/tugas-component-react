@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
 import {Carousel} from 'react-bootstrap';
+import img1 from './pink.jpg';
+import img2 from './pink2.jpg';
+import img3 from './pink3.jpg';
 
 function Home() {
  
@@ -10,36 +13,36 @@ function Home() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/pink.jpg"
+          src={img1}
           alt="gambar-1"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Selamat Datang</h3>
+          <p>Ini adalah laman tugas pertemuan 16 Skilvul-JS Resilience Program</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/pink2.jpg"
+          src={img2}
           alt="gambar-2"
         />
     
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Happy Watching</h3>
+          <p>Kalian bisa melihat sejauh mana progress pengerjaan tugas</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/pink3.jpg"
+          src={img3}
           alt="gambar-3"
         />
     
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3>Belajar Web Development</h3>
+          <p>Bagi saya nge'coding' itu menyenangkan</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

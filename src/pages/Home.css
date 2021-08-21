@@ -1,7 +1,18 @@
-img{
+Carousel{
     max-width: 100%;
 }
 
-.Carousel{
-    max-width: 100%;
+h3 {
+    font-size: 30px;
+    color:crimson;
+    font-weight: bold;
 }
+
+p{
+ font-size: 15px;
+ color: crimson;
+ font-weight: bold;
+}
+
+
+
