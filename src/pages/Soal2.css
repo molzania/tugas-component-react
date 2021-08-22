@@ -1,7 +1,6 @@
 .angka{
     font-size: 50px;
-    margin-left:5px;
-    margin-right:5px;
+    margin: 20px;
 }
 
 .counter{
@@ -19,6 +18,7 @@ color:maroon;
 }
 
 .jawaban-1{ 
+    background-color:	#fee7ff;
     padding: 100px;
     text-align: center;
     color:maroon;
@@ -26,4 +26,12 @@ color:maroon;
 
 .jawaban-1 > p{
     color: maroon;
+}
+
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:palevioletred;
+    color: white;
+    border: 1px solid white;
 }

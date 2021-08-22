@@ -28,8 +28,8 @@ setCount(count + 1);
     </div>
     <div className="jawaban-1">
     <p>Masukkan angka yang diinginkan di bawah ini:</p>
-    <h4>Angka</h4>
     <div className="counter">
+    <h4>Angka</h4>
       <button onClick={tambah}>+</button>
         <span className="angka">{count}</span>
       <button onClick={kurang}>-</button>
