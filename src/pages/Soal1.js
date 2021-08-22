@@ -22,7 +22,7 @@ setCount(count + 1);
 
     return (
       <div className="Soal-1">
-    <div className="pertanyaan-1" style={{backgroundImage: `url(${img1})`}}>
+    <div className="pertanyaan" style={{backgroundImage: `url(${img1})`}}>
     <h1>Soal 1</h1>
     <p>Buatlah component counter tanpa melihat kodingan siapapun</p>
     </div>

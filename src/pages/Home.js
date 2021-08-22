@@ -16,7 +16,7 @@ function Home() {
           src={img1}
           alt="gambar-1"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel.caption">
           <h3>Selamat Datang</h3>
           <p>Ini adalah laman tugas pertemuan 16 Skilvul-JS Resilience Program</p>
         </Carousel.Caption>
@@ -28,7 +28,7 @@ function Home() {
           alt="gambar-2"
         />
     
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-caption">
           <h3>Happy Watching</h3>
           <p>Kalian bisa melihat sejauh mana progress pengerjaan tugas</p>
         </Carousel.Caption>
@@ -40,7 +40,7 @@ function Home() {
           alt="gambar-3"
         />
     
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-caption">
           <h3>Belajar Web Development</h3>
           <p>Bagi saya nge'coding' itu menyenangkan</p>
         </Carousel.Caption>
