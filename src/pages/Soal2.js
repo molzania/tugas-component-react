@@ -5,30 +5,31 @@ import batagor from './products/batagor.jpg';
 import kimchi from './products/kimchi.jpg';
 import topokki from './products/topokki.jpg'
 import sushi from './products/sushi.jpg';
-import ProductItem from './ProductItem';
+
 
 function Soal2() {
 
   const [listProducts, setListProducts] = useState([{
     menu: 'Batagor',
-    gambar: {batagor},
+    gambar: batagor,
     harga: 10000
   },
   {
   menu: 'Kimchi',
-  image: {kimchi},
+  image: kimchi,
   harga: 15000
   },
   {
   menu: 'Topokki',
-  gambar: {topokki},
+  gambar: topokki,
   harga: 20000
   },
   {
   menu: 'Sushi',
-  gambar: {sushi},
+  gambar: sushi,
   harga: 25000
-  }])
+  } 
+  ])
 
 
 
@@ -45,9 +46,14 @@ function Soal2() {
       <h2>Selamat Datang di Molzania Shop</h2>
       <p>Di bawah ini List Produk yang Kami Jual:</p>
   </div>
-  {listProducts.map((item, index) => {
-    return <ProductItem value={item} key={index}/>
-  })}
+  {listProducts.map((product, index) => {
+    const key = `product-${product.menu}-${index}`
+        return <div key={key}>
+          <img src={product.gambar}/>
+          <h3>{product.menu}</h3>
+          <p>{product.harga}</p>
+        </div>
+      })}
       </div>
     );
   }

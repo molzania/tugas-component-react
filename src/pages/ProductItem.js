@@ -1,8 +1,4 @@
-const ProductItem = ({listProducts}) => {
-  return (
-    <h3>
-        {listProducts}
-    </h3>
-  )}
+const ProductItem = ({listProducts}) => 
+{ return ( <div> {listProducts} </div> )} 
 
-  export default ProductItem;
+export default ProductItem; 
