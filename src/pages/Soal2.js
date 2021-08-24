@@ -10,27 +10,7 @@ import ProductItem from './ProductItem';
 
 function Soal2() {
 
-  const [listProducts, setListProducts] = useState([{
-    menu: 'Batagor',
-    gambar: batagor,
-    harga: 10000
-  },
-  {
-  menu: 'Kimchi',
-  image: kimchi,
-  harga: 15000
-  },
-  {
-  menu: 'Topokki',
-  gambar: topokki,
-  harga: 20000
-  },
-  {
-  menu: 'Sushi',
-  gambar: sushi,
-  harga: 25000
-  } 
-  ])
+  const [listProducts, setListProducts] = useState([ "Batagor", "Kimchi", "Topokki", "Sushi"])
 
 
 
@@ -47,13 +27,14 @@ function Soal2() {
       <h2>Selamat Datang di Molzania Shop</h2>
       <p>Di bawah ini List Produk yang Kami Jual:</p>
 
-  {listProducts.map((product, index) => {
-    const key = `product-${product.menu}-${index}`
-        return <div className="food-menu" key={key}>
-          <img src={product.gambar} alt="food"/>
-          <h3>{product.menu}</h3>
-          <p>{product.harga}</p>
-        </div>
+  {listProducts.map((item, index) => {
+    // const key = `product-${product.menu}-${index}`
+        // return <div className="food-menu" key={key}>
+        //   <img src={product.gambar} alt="food"/>
+        //   <h3>{product.menu}</h3>
+        //   <p>{product.harga}</p>
+        // </div>
+        return <ProductItem listProducts={item} key={index}/>
       })}
   </div>
   </div>
