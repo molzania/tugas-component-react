@@ -5,6 +5,7 @@ import batagor from './products/batagor.jpg';
 import kimchi from './products/kimchi.jpg';
 import topokki from './products/topokki.jpg'
 import sushi from './products/sushi.jpg';
+import ProductItem from './ProductItem';
 
 
 function Soal2() {
@@ -45,16 +46,17 @@ function Soal2() {
   <div className="jawaban-2">
       <h2>Selamat Datang di Molzania Shop</h2>
       <p>Di bawah ini List Produk yang Kami Jual:</p>
-  </div>
+
   {listProducts.map((product, index) => {
     const key = `product-${product.menu}-${index}`
-        return <div key={key}>
-          <img src={product.gambar}/>
+        return <div className="food-menu" key={key}>
+          <img src={product.gambar} alt="food"/>
           <h3>{product.menu}</h3>
           <p>{product.harga}</p>
         </div>
       })}
-      </div>
+  </div>
+  </div>
     );
   }
   
