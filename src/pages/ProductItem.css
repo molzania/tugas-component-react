@@ -3,11 +3,12 @@ img{
     height: 20px;
 }
 
-.card{
-width: 50px;
+.product-card{
+width: 150px;
 height: 100px;
 display: flex;
 flex-direction: row;
-
+border:1px solid maroon;
+flex-wrap: wrap;
 
 }

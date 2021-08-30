@@ -43,7 +43,7 @@ function Soal2() {
   <div className="jawaban-2">
       <h2>Selamat Datang di Molzania Shop</h2>
       <p>Di bawah ini List Produk yang Kami Jual:</p>
-<div className="container">
+<div className="container-soal2">
   {listProducts.map((item, index) => {
     // const key = `product-${product.menu}-${index}`
         // return <div className="food-menu" key={key}>

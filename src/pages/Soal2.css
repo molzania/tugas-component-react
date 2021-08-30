@@ -1,5 +1,8 @@
 .jawaban-2{
     background-color: pink;
+    text-align: center;
+    padding: 5px;
+    color: black
 }
 
 img{
@@ -10,8 +13,9 @@ img{
     justify-content: center;
 }
 
-.container{
+.container-soal2{
     width: 80%;
     height: 150px;
     overflow: scroll;
+    margin: auto;
 }
