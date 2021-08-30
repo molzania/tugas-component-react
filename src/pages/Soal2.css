@@ -9,3 +9,9 @@ img{
 .food-menu{
     justify-content: center;
 }
+
+.container{
+    width: 80%;
+    height: 150px;
+    overflow: scroll;
+}
