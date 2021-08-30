@@ -9,9 +9,26 @@ import ProductItem from './ProductItem';
 
 
 function Soal2() {
-
-  const [listProducts, setListProducts] = useState([ "Batagor", "Kimchi", "Topokki", "Sushi"])
-
+  const [listProducts] = useState([{
+    menu: 'Batagor',
+    gambar: {batagor},
+    harga: 10000
+  },
+  {
+  menu: 'Kimchi',
+  image: {kimchi},
+  harga: 15000
+  },
+  {
+  menu: 'Topokki',
+  gambar: {topokki},
+  harga: 20000
+  },
+  {
+  menu: 'Sushi',
+  gambar: {sushi},
+  harga: 25000
+  }])
 
 
     return (
