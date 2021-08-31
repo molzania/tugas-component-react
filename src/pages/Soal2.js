@@ -11,22 +11,22 @@ import ProductItem from './ProductItem';
 function Soal2() {
   const [listProducts] = useState([{
     menu: 'Batagor',
-    gambar: {batagor},
+    gambar: batagor,
     harga: 10000
   },
   {
   menu: 'Kimchi',
-  image: {kimchi},
+  image: kimchi,
   harga: 15000
   },
   {
   menu: 'Topokki',
-  gambar: {topokki},
+  gambar: topokki,
   harga: 20000
   },
   {
   menu: 'Sushi',
-  gambar: {sushi},
+  gambar: sushi,
   harga: 25000
   }])
 
